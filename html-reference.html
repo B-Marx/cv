@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Tags</title>
+  </head>
+  <body>
+    <h3>Unordered Lists</h3>
+    <ul>
+      <li>An unordered list using the <strong><a href="https://devdocs.io/html/element/ul">ul</a></strong> tag</li>
+      <li>And items added using the List Item, <strong><a href="https://devdocs.io/html/element/li">li</a></strong>, tag.</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+      <li>Ordered lists use the <strong><a href="https://devdocs.io/html/element/ol">ol</a></strong> tag.</li>
+      <li>But still use the <strong>li</strong> tag to list items but in this case they are numbered.</li>
+    </ol>
+    &lt;a href=""&gt;This is an anchor tag where a value (a website, link to an image etc) can be added inside the quote marks to create links.&lt;/a&gt;
+    <h3>Table Structue</h3>
+    <p>Tables are formatted using the &lt;table&gt; tag. Within a table the structure can be broken down to head, body and footer as seen below. Tables are made of rows, not coloumns, each row using the &lt;tr&gt; (table row) tag and a data field created using the &lt;td&gt; (table data) tag.</p>
+      &lt;table&gt;
+      <p>&lt;thead&gt;</p>
+        <p>&lt;th&gt;Date&lt;/th&gt;</p>
+        <p>&lt;th&gt;Experience&lt;/th&gt;</p>
+      <p>&lt;/thead&gt;</p>
+      <p>&lt;tbody&gt;</p>
+        <p>&lt;tr&gt;</p>
+          <p>&lt;td&gt;2015-2020&lt;/td&gt;</p>
+          <p>&lt;td&gt;Creative Director at enchantedbrave.&lt;/td&gt;</p>
+        <p>&lt;/tr&gt;</p>
+        <p>&lt;tr&gt;</p>
+          <p>&lt;td&gt;2020-2022&lt;/td&gt;</p>
+          <p>&lt;td&gt;CEO of AM&Co.&lt;/td&gt;</p>
+        <p>&lt;/tr&gt;</p>
+      <p>&lt;/tbody&gt;</p>
+    <p>&lt;/table&gt;</p>
+    <p>The above code gives the below output:</p>
+    <p>
+      <table>
+      <thead>
+        <th>Date</th>
+        <th>Experience</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2015-2020</td>
+          <td>Creative Director at enchantedbrave.</td>
+        </tr>
+        <tr>
+          <td>2020-2022</td>
+          <td>CEO of AM&Co.</td>
+        </tr>
+      </tbody>
+    </table>
+  </p>
+  <p>Check out the code for this example of a nested table below, but be aware they are best avoided.</p>
+  <table>
+    <tr>
+      <td><table>
+        <tr>
+          <td>Graphic Design</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>Web Design</td>
+          <td>★★★★</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>★</td>
+        </tr>
+      </table>
+  </td>
+      <td><table>
+        <tr>
+          <td>Illustrator</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>Photoshop</td>
+          <td>★★★★</td>
+        </tr>
+        <tr>
+          <td>Figma</td>
+          <td>★</td>
+        </tr>
+      </table>
+  </td>
+    </tr>
+  </table>
+<h3>Forms</h3>
+<p>Forms are created using the &ltform&gt tag. In order to add functionality, however, you must add various self closing &ltinput&gt tags. Check out <a href="https://developer.mozilla.org/">Mozilla</a> for a full list of these. Below are some examples, look at the code to see their values.</p>
+
+<form>
+  <input type="text"><br>
+  <input type="submit"><br>
+  <input type="file"><br>
+  <input type="date"><br>
+  <input type="radio"><br>
+  <input type="range"><br>
+</form>
+
+  </body>
+</html>
